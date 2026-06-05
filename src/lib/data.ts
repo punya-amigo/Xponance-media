@@ -278,3 +278,46 @@ export const PROCESS_STEPS = [
     icon: "BarChart2",
   },
 ];
+export const PORTFOLIO_DATA = [
+  {
+    genre: "Hospitality",
+    challenge: "Low online visibility and poor booking conversions.",
+    strategy: "SEO + Meta Ads + Google My Business optimization.",
+    impact: "3x increase in direct bookings within 4 months.",
+    clients: [
+      { id: 1, name: "Hotel Sunrise" },
+      { id: 2, name: "The Grand Stay" },
+    ],
+  },
+  {
+    genre: "Real Estate",
+    challenge: "High cost per lead and low quality inquiries.",
+    strategy:
+      "Targeted Facebook lead gen campaigns + landing page optimization.",
+    impact: "60% reduction in CPL with 2x qualified leads.",
+    clients: [
+      { id: 1, name: "Urban Homes" },
+      { id: 2, name: "Prime Properties" },
+    ],
+  },
+  {
+    genre: "Retail & E-commerce",
+    challenge: "Low ROAS on paid ads and high cart abandonment.",
+    strategy: "Retargeting campaigns + email automation + CRO.",
+    impact: "4.2x ROAS achieved within 60 days.",
+    clients: [
+      { id: 1, name: "StyleCart" },
+      { id: 2, name: "DailyNeeds Store" },
+    ],
+  },
+  {
+    genre: "Healthcare",
+    challenge: "Building trust and driving patient appointments online.",
+    strategy: "Local SEO + Google Ads + reputation management.",
+    impact: "200+ monthly appointments generated organically.",
+    clients: [
+      { id: 1, name: "CareFirst Clinic" },
+      { id: 2, name: "WellnessHub" },
+    ],
+  },
+];
